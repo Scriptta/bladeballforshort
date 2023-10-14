@@ -1,9 +1,3 @@
-local starting_args = ({...}) or {}
-
-if starting_args.Key ~= 'BladeBreaker' then
-game.Players.LocalPlayer:Kick('wrong key lil bro')
-end
-
 -- // Main Variables // --
 
 local RunService, UserInputService, TweenService = game.RunService, game.UserInputService, game.TweenService
